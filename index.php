@@ -11,6 +11,54 @@
     <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <style>
+        body {
+            background: url('assets/img/medical-bg.jpg') no-repeat center center fixed;
+            background-size: cover;
+            min-height: 100vh;
+            margin: 0;
+            padding: 0;
+        }
+        .main-wrapper {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .account-page {
+            width: 100%;
+            padding: 20px;
+        }
+        .account-center {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .account-box {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+            padding: 30px;
+            max-width: 400px;
+            width: 100%;
+            margin: 0 auto;
+        }
+        .account-logo {
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        .btn-primary.account-btn {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+        }
+        @media (max-width: 480px) {
+            .account-box {
+                padding: 20px;
+                margin: 10px;
+            }
+        }
+    </style>
     <!--[if lt IE 9]>
 		<script src="assets/js/html5shiv.min.js"></script>
 		<script src="assets/js/respond.min.js"></script>
